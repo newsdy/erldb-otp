@@ -1,0 +1,19 @@
+{application, erldb_otp,
+ [{description, "An OTP application"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    compiler,
+    inets,
+    crypto,
+    ssl,
+    lager,
+    pooler,
+    erloci,
+    mysql
+   ]},
+  {env,[]},
+  {modules, []}
+ ]}.
